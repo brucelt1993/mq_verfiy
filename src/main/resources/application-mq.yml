@@ -1,0 +1,18 @@
+ctgmq:
+  client:
+    producerNum: 8
+    producerGroupName: mqVerfiy
+    namesrvAddr: 192.168.1.207:7542
+    authId: ctgtest
+    authPwd: ctgtest
+    instanceName: func_mq
+    tenantId: 1
+    defaultTopicQueueNums: 4
+    clusterName: func_mq
+  topic:
+    names: ctgmqTest1
+  thread:
+    corePoolSize: 3
+    maximumPoolSize: 3
+    queueSize: 1000
+    executeTime: 60

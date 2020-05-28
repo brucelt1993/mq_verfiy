@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  profiles:
+    include: mq
+logging:
+  path: E:\development_self\idea_openSource\mq_verfiy\logs
+  level:
+    root: info
